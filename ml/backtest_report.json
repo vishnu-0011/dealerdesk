@@ -1,0 +1,96 @@
+{
+  "rolling_24_folds": {
+    "last_value": {
+      "MAE": 14.2066,
+      "RMSE": 25.3558,
+      "WAPE": 0.3971,
+      "bias": 1.1355
+    },
+    "recent_avg_4w": {
+      "MAE": 11.7566,
+      "RMSE": 20.2858,
+      "WAPE": 0.3286,
+      "bias": 0.282
+    },
+    "same_week_last_year": {
+      "MAE": 12.7746,
+      "RMSE": 20.9646,
+      "WAPE": 0.3571,
+      "bias": -3.0609
+    },
+    "gradient_boosting": {
+      "MAE": 9.1352,
+      "RMSE": 15.5318,
+      "WAPE": 0.2553,
+      "bias": 0.7995
+    },
+    "glm_plain": {
+      "MAE": 7.4341,
+      "RMSE": 11.218,
+      "WAPE": 0.2078,
+      "bias": -0.2459
+    },
+    "forecast_model": {
+      "MAE": 7.4341,
+      "RMSE": 11.218,
+      "WAPE": 0.2078,
+      "bias": -0.2459
+    }
+  },
+  "mirror_fold_2025-09-15": {
+    "last_value": {
+      "MAE": 16.8882,
+      "RMSE": 24.2331,
+      "WAPE": 0.3773,
+      "bias": -10.1776
+    },
+    "recent_avg_4w": {
+      "MAE": 15.8059,
+      "RMSE": 23.2091,
+      "WAPE": 0.3532,
+      "bias": -12.9737
+    },
+    "same_week_last_year": {
+      "MAE": 13.1316,
+      "RMSE": 19.182,
+      "WAPE": 0.2934,
+      "bias": -5.7895
+    },
+    "gradient_boosting": {
+      "MAE": 13.2151,
+      "RMSE": 19.5404,
+      "WAPE": 0.2953,
+      "bias": -11.0144
+    },
+    "glm_plain": {
+      "MAE": 8.3774,
+      "RMSE": 11.4767,
+      "WAPE": 0.1872,
+      "bias": -0.9575
+    },
+    "forecast_model": {
+      "MAE": 8.3774,
+      "RMSE": 11.4767,
+      "WAPE": 0.1872,
+      "bias": -0.9575
+    }
+  },
+  "wape_by_horizon": {
+    "1": {
+      "recent_avg_4w": 0.3259,
+      "forecast_model": 0.2062
+    },
+    "2": {
+      "recent_avg_4w": 0.3208,
+      "forecast_model": 0.2051
+    },
+    "3": {
+      "recent_avg_4w": 0.3403,
+      "forecast_model": 0.211
+    },
+    "4": {
+      "recent_avg_4w": 0.3279,
+      "forecast_model": 0.209
+    }
+  }
+}
