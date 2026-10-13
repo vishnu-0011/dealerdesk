@@ -1,0 +1,5 @@
+# Only needed to re-train / re-run the backtest (python -m ml.train_forecast).
+# The Django app does not import these: it only reads ml/forecast.csv.
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
